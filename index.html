@@ -14,17 +14,106 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Unit 4 Project</title>
+    <meta charset="utf-8" />
+    <style>
+      .fira-sans-condensed-medium {
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      h1 {
+        font-size: ;
+      }
+      #slideshow {
+        position: relative;
+        overflow: hidden;
+        max-width: 1000%;
+        margin: auto;
+      }
 
-<head>
-  <title>Unit 4 Project</title>
-  <meta charset="utf-8">
-  <style>
+      .slide-wrapper {
+        width: calc(700px * 5);
+      }
+      .slide {
+        animation-name: slide;
 
-  </style>
-</head>
-<body>
-
- 
-
-</body>
+        animation-duration: 60s;
+        ease: infinite;
+        float: left;
+      }
+      @keyframes slide {
+        20% {
+          margin-left: 0px;
+        }
+        40% {
+          margin-left: calc(-700px * 1);
+        }
+        60% {
+          margin-left: calc(-700px * 2);
+        }
+        80% {
+          margin-left: calc(-700px * 3);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="fira-sans-condensed-medium">@PADDLEKNIFE (LI LOL) COMMISIONS</h1>
+    <div id="slideshow">
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="slide-number">
+            <img
+              src="https://cdn.glitch.global/9f07b559-8eb0-40d3-a629-8c3a91d826bc/COM1.png?v=1730732323686"
+              width="700px"
+            />
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-number">
+            <img
+              src="https://cdn.glitch.global/9f07b559-8eb0-40d3-a629-8c3a91d826bc/COM2.png?v=1730732351355"
+              width="700px"
+            />
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-number">
+            <img
+              src="https://cdn.glitch.global/9f07b559-8eb0-40d3-a629-8c3a91d826bc/COM3.png?v=1730732348488"
+              width="700px"
+            />
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-number">
+            <p>
+              <img
+                src="https://cdn.glitch.global/9f07b559-8eb0-40d3-a629-8c3a91d826bc/COM4.png?v=1730732331490"
+                width="700px"
+              />
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-number">
+            <p>
+              <img
+                src="https://cdn.glitch.global/9f07b559-8eb0-40d3-a629-8c3a91d826bc/COM5.png?v=1730732333146"
+                width="700px"
+              />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
